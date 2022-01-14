@@ -21,7 +21,8 @@ Alternatively, you can also define the exponent of a 1/f^gamma pink-noise model:
 
         model.get_likelihood(data, sigma_w, sigma_r, gamma = 1.1)
         
-As per Carter & Winn (2009)'s suggestion, though, don't let the value of gamma go too far off 1.
+As per Carter & Winn (2009)'s suggestion, though, don't let the value of gamma go too far off 1. Also note that as stated on the same paper, `sigma_r` is *not* the 
+amplitude of the flicker-noise process.
 
 ## Installation
 Installation is as simple as:
