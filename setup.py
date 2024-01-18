@@ -22,7 +22,7 @@ setup(name='pinknoise',
       license='MIT',
       packages=['pinknoise'],
       package_dir={'pinknoise': 'src/pinknoise'},
-      install_requires=['numpy','scipy'],
+      install_requires=['numpy','scipy', 'stochastic'],
       python_requires='>=3.0',
       ext_modules = [module],
       zip_safe=False)
